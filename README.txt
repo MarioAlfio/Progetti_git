@@ -1,7 +1,7 @@
-Ciao a tutti e benvenuti nella mia pagina personale su GitHub 
-Vi mostrerò tutti i miei progetti personali
+Ciao a tutti e benvenuti nella mia pagina personale su GitHub. 
+Vi mostrerò tutti i miei progetti personali.
 
-Iniziamo con l'elenco dei comandi iniziali e git utilizzati nel terminale di VS:
+Iniziamo con l'elenco dei comandi per creazione di una cartella e git utilizzati nel terminale di VS:
 1.cd C:\Users\alfie\Desktop --> posizionarsi nella cartella Desktop
 2.mkdir Progetti_git --> creazione cartella Progetti_git
 3.ni README.txt --> creazione del file di testo README
@@ -11,3 +11,6 @@ Iniziamo con l'elenco dei comandi iniziali e git utilizzati nel terminale di VS:
 7.git add README.txt (o '.' per add tutti i file nella directory) --> aggiungere nella Staging Area e iniziare a tracciarne le modifiche 
 8.git commit -m "Complete README" --> commit del file e aggiunta di un messaggio (-m) sullo status
 9.git log --> vedere storico commit
+Suggerimento: quando si fa un errore e si vuole tornare alla modifica precedente si usa questa procedura:
+              a. git diff fileinerrore.estensione (premendo invio possiamo vedere in rosso la parte cancellata)
+              b. git checkout fileinerrore.estensione
