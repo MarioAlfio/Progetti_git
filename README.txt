@@ -11,6 +11,10 @@ Iniziamo con l'elenco dei comandi per creazione di una cartella e git utilizzati
 7.git add README.txt (o '.' per add tutti i file nella directory) --> aggiungere nella Staging Area e iniziare a tracciarne le modifiche 
 8.git commit -m "Complete README" --> commit del file e aggiunta di un messaggio (-m) sullo status
 9.git log --> vedere storico commit
+
 Suggerimento: quando si fa un errore e si vuole tornare alla modifica precedente si usa questa procedura:
               a. git diff fileinerrore.estensione (premendo invio possiamo vedere in rosso la parte cancellata)
               b. git checkout fileinerrore.estensione
+
+10.git remote add origin https://github.com/nome_utente/nome_cartella.git --> creazione repository remoto. origin (name del tuo remote)
+11.git push -u origin main --> passare il nostro repository locale sul nostro repository remoto, che si chiama origin. Opzione u, collega il repository remoto e quello locale
