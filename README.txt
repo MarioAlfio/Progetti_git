@@ -2,7 +2,7 @@ Ciao a tutti e benvenuti nella mia pagina personale su GitHub.
 Vi mostrerò tutti i miei progetti personali.
 
 Iniziamo con l'elenco dei comandi per creazione di una cartella e git utilizzati nel terminale di VS:
-1.cd C:\Users\alfie\Desktop --> posizionarsi nella cartella Desktop
+1.cd C:\Users\Desktop --> posizionarsi nella cartella Desktop
 2.mkdir Progetti_git --> creazione cartella Progetti_git
 3.ni README.txt --> creazione del file di testo README
 4.code README.txt --> aprire e modificare il file di testo
